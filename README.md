@@ -1,5 +1,5 @@
 ### React Native Blur
-Component implementation for UIVisualEffectView's blur and vibrancy effect.
+Component implementation for UIVisualEffectView's blur and vibrancy effect.<br>
 Check the [roadmap here](https://github.com/Kureev/react-native-blur/issues/1)
 
 <img src='http://oi62.tinypic.com/8x4u94.jpg' />
@@ -61,7 +61,10 @@ var Menu = React.createClass({
 ```
 
 ### Component properties
-- `blurType` String:(xlight|light|dark) - blur type effect
+- `blurType` (String) - blur type effect
+  - `xlight` - extra light blur type
+  - `light` - light blur type
+  - `dark` - dark blur type
 
 ### Questions?
 Feel free to contact me in [twitter](https://twitter.com/kureevalexey) or [create an issue](https://github.com/Kureev/react-native-blur/issues/new)
